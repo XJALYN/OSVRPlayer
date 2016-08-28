@@ -24,7 +24,6 @@
 		F5F356701D715BEA0035664D /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566B1D715BEA0035664D /* login.png */; };
 		F5F356711D715BEA0035664D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566C1D715BEA0035664D /* pause.png */; };
 		F5F356721D715BEA0035664D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566D1D715BEA0035664D /* play.png */; };
-		F5F356731D715BEA0035664D /* tang.mov in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566E1D715BEA0035664D /* tang.mov */; };
 		F5F356751D7162EE0035664D /* readMe in Resources */ = {isa = PBXBuildFile; fileRef = F5F356741D7162EE0035664D /* readMe */; };
 		F5F356771D7165340035664D /* ad.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F356761D7165340035664D /* ad.png */; };
 		F5F470401D6FEEE6008B3824 /* ShaderNormal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F5F4703E1D6FEEE6008B3824 /* ShaderNormal.fsh */; };
@@ -57,7 +56,6 @@
 		F5F3566B1D715BEA0035664D /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 		F5F3566C1D715BEA0035664D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		F5F3566D1D715BEA0035664D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		F5F3566E1D715BEA0035664D /* tang.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tang.mov; sourceTree = "<group>"; };
 		F5F356741D7162EE0035664D /* readMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readMe; sourceTree = "<group>"; };
 		F5F356761D7165340035664D /* ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad.png; sourceTree = "<group>"; };
 		F5F4703E1D6FEEE6008B3824 /* ShaderNormal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderNormal.fsh; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				F5F3566B1D715BEA0035664D /* login.png */,
 				F5F3566C1D715BEA0035664D /* pause.png */,
 				F5F3566D1D715BEA0035664D /* play.png */,
-				F5F3566E1D715BEA0035664D /* tang.mov */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -227,7 +224,6 @@
 				F501E19D1D6D4227007FA339 /* OSOpenGLESViewController.xib in Resources */,
 				F501E1791D6D3D9F007FA339 /* Assets.xcassets in Resources */,
 				F5F356701D715BEA0035664D /* login.png in Resources */,
-				F5F356731D715BEA0035664D /* tang.mov in Resources */,
 				F501E1771D6D3D9F007FA339 /* Main.storyboard in Resources */,
 				F5F356751D7162EE0035664D /* readMe in Resources */,
 				F5F3566F1D715BEA0035664D /* 1.mp4 in Resources */,

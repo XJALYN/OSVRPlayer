@@ -41,7 +41,7 @@
 }
 - (IBAction)openPlayVC2:(id)sender {
     XJVRPlayerViewController *playerVC = [[XJVRPlayerViewController alloc]initWithNibName:@"XJVRPlayerViewController" bundle:nil];
-
+    // 由于视频太大已经被我删除了，请各位自行在工程中放入文件
     [playerVC setVedioUrl:[[NSBundle mainBundle] URLForResource:@"tang" withExtension:@"mov"] VedioType:OSNormal loginName:@"login.png"];
     [playerVC setAdImageName:@"ad.png"];
    

@@ -129,16 +129,19 @@
 -(void)glkView:(GLKView *)view drawInRect:(CGRect)rect{
     glClearColor(0, 0, 0, 1);
     glClear(GL_COLOR_BUFFER_BIT);
-   
+    int scale = 2;
+    if ([UIScreen mainScreen].bounds.size.width > 500){
+        scale = 3;
+    }
     
     
     if (_isVR){
-        glViewport(0, 0, self.view.bounds.size.width, self.view.bounds.size.height*2);
+        glViewport(0, 0, self.view.bounds.size.width*scale/2.0, self.view.bounds.size.height*scale);
         glDrawElements(GL_TRIANGLES, _numIndices, GL_UNSIGNED_SHORT, 0);
-        glViewport(self.view.bounds.size.width, 0, self.view.bounds.size.width, self.view.bounds.size.height*2);
+        glViewport(self.view.bounds.size.width*scale/2.0, 0, self.view.bounds.size.width*scale/2.0, self.view.bounds.size.height*scale);
         glDrawElements(GL_TRIANGLES, _numIndices, GL_UNSIGNED_SHORT, 0);
     }else{
-        glViewport(0, 0, self.view.bounds.size.width*2, self.view.bounds.size.height*2);
+        glViewport(0, 0, self.view.bounds.size.width*scale, self.view.bounds.size.height*scale);
         glDrawElements(GL_TRIANGLES, _numIndices, GL_UNSIGNED_SHORT, 0);
     }
    
