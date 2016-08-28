@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F501E16E1D6D3D9F007FA339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E16D1D6D3D9F007FA339 /* main.m */; };
+		F501E1711D6D3D9F007FA339 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E1701D6D3D9F007FA339 /* AppDelegate.m */; };
+		F501E1741D6D3D9F007FA339 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E1731D6D3D9F007FA339 /* ViewController.m */; };
+		F501E1771D6D3D9F007FA339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F501E1751D6D3D9F007FA339 /* Main.storyboard */; };
+		F501E1791D6D3D9F007FA339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F501E1781D6D3D9F007FA339 /* Assets.xcassets */; };
+		F501E17C1D6D3D9F007FA339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F501E17A1D6D3D9F007FA339 /* LaunchScreen.storyboard */; };
+		F501E18B1D6D3E0C007FA339 /* XJVRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E1871D6D3E0C007FA339 /* XJVRPlayerViewController.m */; };
+		F501E18C1D6D3E0C007FA339 /* XJVRPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F501E1881D6D3E0C007FA339 /* XJVRPlayerViewController.xib */; };
+		F501E19C1D6D4227007FA339 /* OSOpenGLESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E1951D6D4227007FA339 /* OSOpenGLESViewController.m */; };
+		F501E19D1D6D4227007FA339 /* OSOpenGLESViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F501E1961D6D4227007FA339 /* OSOpenGLESViewController.xib */; };
+		F501E19E1D6D4227007FA339 /* OSShaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E1981D6D4227007FA339 /* OSShaderManager.m */; };
+		F501E19F1D6D4227007FA339 /* ShaderPanorama.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F501E1991D6D4227007FA339 /* ShaderPanorama.fsh */; };
+		F501E1A01D6D4227007FA339 /* ShaderPanorama.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F501E19A1D6D4227007FA339 /* ShaderPanorama.vsh */; };
+		F5F3566F1D715BEA0035664D /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566A1D715BEA0035664D /* 1.mp4 */; };
+		F5F356701D715BEA0035664D /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566B1D715BEA0035664D /* login.png */; };
+		F5F356711D715BEA0035664D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566C1D715BEA0035664D /* pause.png */; };
+		F5F356721D715BEA0035664D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566D1D715BEA0035664D /* play.png */; };
+		F5F356731D715BEA0035664D /* tang.mov in Resources */ = {isa = PBXBuildFile; fileRef = F5F3566E1D715BEA0035664D /* tang.mov */; };
+		F5F356751D7162EE0035664D /* readMe in Resources */ = {isa = PBXBuildFile; fileRef = F5F356741D7162EE0035664D /* readMe */; };
+		F5F356771D7165340035664D /* ad.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F356761D7165340035664D /* ad.png */; };
+		F5F470401D6FEEE6008B3824 /* ShaderNormal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F5F4703E1D6FEEE6008B3824 /* ShaderNormal.fsh */; };
+		F5F470411D6FEEE6008B3824 /* ShaderNormal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F5F4703F1D6FEEE6008B3824 /* ShaderNormal.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F501E1691D6D3D9F007FA339 /* OSVRPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSVRPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F501E16D1D6D3D9F007FA339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F501E16F1D6D3D9F007FA339 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F501E1701D6D3D9F007FA339 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F501E1721D6D3D9F007FA339 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F501E1731D6D3D9F007FA339 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F501E1761D6D3D9F007FA339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F501E1781D6D3D9F007FA339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F501E17B1D6D3D9F007FA339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F501E17D1D6D3D9F007FA339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F501E1861D6D3E0C007FA339 /* XJVRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJVRPlayerViewController.h; sourceTree = "<group>"; };
+		F501E1871D6D3E0C007FA339 /* XJVRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJVRPlayerViewController.m; sourceTree = "<group>"; };
+		F501E1881D6D3E0C007FA339 /* XJVRPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJVRPlayerViewController.xib; sourceTree = "<group>"; };
+		F501E1941D6D4227007FA339 /* OSOpenGLESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSOpenGLESViewController.h; sourceTree = "<group>"; };
+		F501E1951D6D4227007FA339 /* OSOpenGLESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSOpenGLESViewController.m; sourceTree = "<group>"; };
+		F501E1961D6D4227007FA339 /* OSOpenGLESViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSOpenGLESViewController.xib; sourceTree = "<group>"; };
+		F501E1971D6D4227007FA339 /* OSShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSShaderManager.h; sourceTree = "<group>"; };
+		F501E1981D6D4227007FA339 /* OSShaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSShaderManager.m; sourceTree = "<group>"; };
+		F501E1991D6D4227007FA339 /* ShaderPanorama.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderPanorama.fsh; sourceTree = "<group>"; };
+		F501E19A1D6D4227007FA339 /* ShaderPanorama.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderPanorama.vsh; sourceTree = "<group>"; };
+		F501E1A61D6D4B18007FA339 /* OSSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSphere.h; sourceTree = "<group>"; };
+		F5F3566A1D715BEA0035664D /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		F5F3566B1D715BEA0035664D /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		F5F3566C1D715BEA0035664D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F5F3566D1D715BEA0035664D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F5F3566E1D715BEA0035664D /* tang.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tang.mov; sourceTree = "<group>"; };
+		F5F356741D7162EE0035664D /* readMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readMe; sourceTree = "<group>"; };
+		F5F356761D7165340035664D /* ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad.png; sourceTree = "<group>"; };
+		F5F4703E1D6FEEE6008B3824 /* ShaderNormal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderNormal.fsh; sourceTree = "<group>"; };
+		F5F4703F1D6FEEE6008B3824 /* ShaderNormal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderNormal.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F501E1661D6D3D9F007FA339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F501E1601D6D3D9F007FA339 = {
+			isa = PBXGroup;
+			children = (
+				F5F356741D7162EE0035664D /* readMe */,
+				F5F356691D715BEA0035664D /* resource */,
+				F501E1921D6D4227007FA339 /* OSShader */,
+				F501E1831D6D3E0C007FA339 /* OSPlayer */,
+				F501E16B1D6D3D9F007FA339 /* OSVRPlayer */,
+				F501E16A1D6D3D9F007FA339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F501E16A1D6D3D9F007FA339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F501E1691D6D3D9F007FA339 /* OSVRPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F501E16B1D6D3D9F007FA339 /* OSVRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F501E16F1D6D3D9F007FA339 /* AppDelegate.h */,
+				F501E1701D6D3D9F007FA339 /* AppDelegate.m */,
+				F501E1721D6D3D9F007FA339 /* ViewController.h */,
+				F501E1731D6D3D9F007FA339 /* ViewController.m */,
+				F501E1751D6D3D9F007FA339 /* Main.storyboard */,
+				F501E1781D6D3D9F007FA339 /* Assets.xcassets */,
+				F501E17A1D6D3D9F007FA339 /* LaunchScreen.storyboard */,
+				F501E17D1D6D3D9F007FA339 /* Info.plist */,
+				F501E16C1D6D3D9F007FA339 /* Supporting Files */,
+			);
+			path = OSVRPlayer;
+			sourceTree = "<group>";
+		};
+		F501E16C1D6D3D9F007FA339 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F501E16D1D6D3D9F007FA339 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F501E1831D6D3E0C007FA339 /* OSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F501E1861D6D3E0C007FA339 /* XJVRPlayerViewController.h */,
+				F501E1871D6D3E0C007FA339 /* XJVRPlayerViewController.m */,
+				F501E1881D6D3E0C007FA339 /* XJVRPlayerViewController.xib */,
+			);
+			path = OSPlayer;
+			sourceTree = "<group>";
+		};
+		F501E1921D6D4227007FA339 /* OSShader */ = {
+			isa = PBXGroup;
+			children = (
+				F501E1941D6D4227007FA339 /* OSOpenGLESViewController.h */,
+				F501E1951D6D4227007FA339 /* OSOpenGLESViewController.m */,
+				F501E1961D6D4227007FA339 /* OSOpenGLESViewController.xib */,
+				F501E1971D6D4227007FA339 /* OSShaderManager.h */,
+				F501E1981D6D4227007FA339 /* OSShaderManager.m */,
+				F5F4703E1D6FEEE6008B3824 /* ShaderNormal.fsh */,
+				F5F4703F1D6FEEE6008B3824 /* ShaderNormal.vsh */,
+				F501E19A1D6D4227007FA339 /* ShaderPanorama.vsh */,
+				F501E1991D6D4227007FA339 /* ShaderPanorama.fsh */,
+				F501E1A61D6D4B18007FA339 /* OSSphere.h */,
+			);
+			path = OSShader;
+			sourceTree = "<group>";
+		};
+		F5F356691D715BEA0035664D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F5F356761D7165340035664D /* ad.png */,
+				F5F3566A1D715BEA0035664D /* 1.mp4 */,
+				F5F3566B1D715BEA0035664D /* login.png */,
+				F5F3566C1D715BEA0035664D /* pause.png */,
+				F5F3566D1D715BEA0035664D /* play.png */,
+				F5F3566E1D715BEA0035664D /* tang.mov */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F501E1681D6D3D9F007FA339 /* OSVRPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F501E1801D6D3D9F007FA339 /* Build configuration list for PBXNativeTarget "OSVRPlayer" */;
+			buildPhases = (
+				F501E1651D6D3D9F007FA339 /* Sources */,
+				F501E1661D6D3D9F007FA339 /* Frameworks */,
+				F501E1671D6D3D9F007FA339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSVRPlayer;
+			productName = OSVRPlayer;
+			productReference = F501E1691D6D3D9F007FA339 /* OSVRPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F501E1611D6D3D9F007FA339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					resource,
+				);
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xujie;
+				TargetAttributes = {
+					F501E1681D6D3D9F007FA339 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F501E1641D6D3D9F007FA339 /* Build configuration list for PBXProject "OSVRPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F501E1601D6D3D9F007FA339;
+			productRefGroup = F501E16A1D6D3D9F007FA339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F501E1681D6D3D9F007FA339 /* OSVRPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F501E1671D6D3D9F007FA339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F501E19F1D6D4227007FA339 /* ShaderPanorama.fsh in Resources */,
+				F501E18C1D6D3E0C007FA339 /* XJVRPlayerViewController.xib in Resources */,
+				F5F356711D715BEA0035664D /* pause.png in Resources */,
+				F501E17C1D6D3D9F007FA339 /* LaunchScreen.storyboard in Resources */,
+				F501E1A01D6D4227007FA339 /* ShaderPanorama.vsh in Resources */,
+				F501E19D1D6D4227007FA339 /* OSOpenGLESViewController.xib in Resources */,
+				F501E1791D6D3D9F007FA339 /* Assets.xcassets in Resources */,
+				F5F356701D715BEA0035664D /* login.png in Resources */,
+				F5F356731D715BEA0035664D /* tang.mov in Resources */,
+				F501E1771D6D3D9F007FA339 /* Main.storyboard in Resources */,
+				F5F356751D7162EE0035664D /* readMe in Resources */,
+				F5F3566F1D715BEA0035664D /* 1.mp4 in Resources */,
+				F5F470401D6FEEE6008B3824 /* ShaderNormal.fsh in Resources */,
+				F5F356721D715BEA0035664D /* play.png in Resources */,
+				F5F356771D7165340035664D /* ad.png in Resources */,
+				F5F470411D6FEEE6008B3824 /* ShaderNormal.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F501E1651D6D3D9F007FA339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F501E1741D6D3D9F007FA339 /* ViewController.m in Sources */,
+				F501E19C1D6D4227007FA339 /* OSOpenGLESViewController.m in Sources */,
+				F501E19E1D6D4227007FA339 /* OSShaderManager.m in Sources */,
+				F501E1711D6D3D9F007FA339 /* AppDelegate.m in Sources */,
+				F501E16E1D6D3D9F007FA339 /* main.m in Sources */,
+				F501E18B1D6D3E0C007FA339 /* XJVRPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F501E1751D6D3D9F007FA339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F501E1761D6D3D9F007FA339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F501E17A1D6D3D9F007FA339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F501E17B1D6D3D9F007FA339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F501E17E1D6D3D9F007FA339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F501E17F1D6D3D9F007FA339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F501E1811D6D3D9F007FA339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSVRPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.OSVRPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F501E1821D6D3D9F007FA339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSVRPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.OSVRPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F501E1641D6D3D9F007FA339 /* Build configuration list for PBXProject "OSVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F501E17E1D6D3D9F007FA339 /* Debug */,
+				F501E17F1D6D3D9F007FA339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F501E1801D6D3D9F007FA339 /* Build configuration list for PBXNativeTarget "OSVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F501E1811D6D3D9F007FA339 /* Debug */,
+				F501E1821D6D3D9F007FA339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F501E1611D6D3D9F007FA339 /* Project object */;
+}

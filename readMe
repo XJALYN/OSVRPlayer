@@ -1,0 +1,13 @@
+
+使用步骤:
+1.将 Resource、OSShader OSPlayer 文件拖入工程
+2.添加头文件 #import "XJVRPlayerViewController.h"
+3.设置视频的网络地址或者本地地址 设置视频类型全景或者普通 ，视频未加载出来的名称
+-(void)setVedioUrl:(NSURL*)url VedioType:(OSVedioType)type loginName:(NSString *)name;
+4.设置暂停是的广告地址，目前只能是本地的一张图片
+-(void)setAdImageName:(NSString*)adName;
+
+致使用者
+1.暂不支持CocoaPods的方式
+2.如果想要了解实现原理，请访问
+http://www.jianshu.com/users/1c37e216663b/latest_articles
